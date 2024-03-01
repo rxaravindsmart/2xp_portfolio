@@ -1,0 +1,68 @@
+.contact-container {
+  padding: 100px 3%;
+  .form {
+    margin-top: 50px;
+    .prime-blue {
+      color: #0f2c59;
+    }
+    .btn-submit-form {
+      background-color: #0f2c59;
+      text-align: right;
+      color: white;
+      padding: 10px 40px;
+      border-radius: 30px;
+    }
+    .btn-submit-form:disabled {
+      color: white;
+      background-color: #234880;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact-text {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3498db;
+  }
+  .contact-title {
+    font-size: 44px;
+    font-weight: 800;
+    color: #0f2c59;
+    text-align: center;
+    text-transform: uppercase;
+    .blue {
+      color: #3498db;
+    }
+  }
+  .img-contact {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    margin: 0px 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-text {
+    font-size: 28px;
+    font-weight: 800;
+    color: #3498db;
+  }
+  .contact-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f2c59;
+    text-align: center;
+    text-transform: uppercase;
+    .blue {
+      color: #3498db;
+    }
+  }
+  .img-contact {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin: 0px 10%;
+  }
+}

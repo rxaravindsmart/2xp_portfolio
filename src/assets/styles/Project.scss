@@ -1,0 +1,110 @@
+.project-container {
+  margin-top: 50px;
+  padding: 4%;
+  .text {
+    color: #0d004d;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .project {
+    width: 90%;
+    border: 1px solid #57bfff;
+    border-radius: 50px 0px;
+    height: 100%;
+    .project-title {
+      text-align: center;
+      font-size: 22px;
+      color: #3498db;
+    }
+    .project-img {
+      margin-top: 2em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      object-fit: cover;
+    }
+  }
+  .project:hover {
+    background-color: #eaf7ff;
+    .project-title {
+      color: #0f2c59;
+    }
+  }
+  .btn-box {
+    text-align: center;
+    margin: 30px;
+    .btn-git {
+      border: 1px solid #0d004d;
+      color: #0d004d;
+      border-radius: 30px;
+      padding: 10px 30px;
+      text-transform: capitalize;
+      .git-icon {
+        font-size: 18px;
+        line-height: 1.2em;
+      }
+    }
+    .btn-git:hover {
+      background-color: #0d004d;
+      border: 1px solid #0d004d;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 30px;
+      box-shadow: 0 0 10px 5px #0d004d;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 44px;
+    text-align: center;
+    .blue {
+      color: #3498db;
+    }
+  }
+  .grid-fix {
+    margin-top: 30px;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 17px;
+    margin: 30px 10%;
+    color: #0f2c59;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 32px;
+    text-align: center;
+    .blue {
+      color: #3498db;
+    }
+  }
+  .grid-fix {
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 16px;
+    margin: 30px 10%;
+    color: #0f2c59;
+  }
+}

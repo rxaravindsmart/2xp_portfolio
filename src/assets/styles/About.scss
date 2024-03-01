@@ -1,0 +1,214 @@
+.about-container {
+  padding-top: 100px;
+  padding: 100px 4%;
+  .center {
+    text-align: center;
+  }
+  .about-card {
+    .list-contents {
+      list-style: none;
+      padding: 0;
+    }
+    .exp-content {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      .title-exp {
+        font-size: 32px;
+        font-weight: 800;
+        color: #3498db;
+        text-align: center;
+      }
+      .text-exp {
+        font-size: 22px;
+        color: #0d004d;
+        font-weight: 500;
+      }
+    }
+  }
+  .divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .exp-role {
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 50px;
+    .title-back {
+      background-color: rgb(233, 233, 233);
+      color: #0d004d;
+      padding: 5px 10px;
+      border-radius: 15px;
+      width: fit-content;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .role-title {
+      color: #0d004d;
+      text-transform: uppercase;
+    }
+    .role-text {
+      color: #0d004d;
+    }
+  }
+  .resume-download {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    .resume {
+      border: 1px solid #0d004d;
+      color: #0d004d;
+      border-radius: 30px;
+      padding: 10px 30px;
+    }
+    .resume:hover {
+      background-color: #0d004d;
+      border: 1px solid #0d004d;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 30px;
+      box-shadow: 0 0 10px 5px #0d004d;
+    }
+  }
+}
+@media screen and (min-width: 960px) {
+  .about-head {
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0d004d;
+    .blue {
+      color: #3498db;
+      font-weight: 900;
+    }
+  }
+  .list-wrap {
+    display: inline-block;
+    width: 48%;
+    margin: 0px 1%;
+    .list-title {
+      font-size: 18px;
+      color: #0d004d;
+      font-weight: 500;
+    }
+  }
+  .exp-wrap {
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .icon-hold {
+    background-color: #3498db;
+    color: #0d004d;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -1px;
+  }
+  .vertical-line {
+    background-color: #3498db;
+    width: 2px;
+    height: 130px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: -40px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .list-title {
+    font-size: 18px;
+    color: #0d004d;
+    font-weight: 500;
+  }
+  .about-head {
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0d004d;
+    .blue {
+      color: #3498db;
+      font-weight: 900;
+    }
+  }
+  .exp-wrap {
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .icon-hold {
+    background-color: #3498db;
+    color: #0d004d;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -1px;
+  }
+  .vertical-line {
+    background-color: #3498db;
+    width: 2px;
+    height: 200px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: -40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .list-title {
+    font-size: 16px;
+    color: #0d004d;
+    font-weight: 500;
+  }
+  .about-head {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0d004d;
+    .blue {
+      color: #3498db;
+      font-weight: 900;
+    }
+  }
+  .exp-wrap {
+    width: 48%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .role-title {
+    color: #0d004d;
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  .icon-hold {
+    background-color: #3498db;
+    color: #0d004d;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -1px;
+  }
+  .vertical-line {
+    background-color: #3498db;
+    width: 2px;
+    height: 170px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: -30px;
+  }
+}
