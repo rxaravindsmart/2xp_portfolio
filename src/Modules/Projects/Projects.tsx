@@ -7,7 +7,7 @@ const ProjectsPage = () => {
       title: "PortFolio",
       imgSrc: "./assets/port-exp.png",
       description: `Dive into my sleek portfolio, a vivid embodiment of unwavering dedication to modern web development. The fusion of React.js, Material-UI, Bootstrap, and SCSS creates a harmonious blend of dynamic interactivity, aesthetic allure, and responsive design. Beyond mere pages, it encapsulates the essence of my design philosophy, inviting you to experience a seamless and visually appealing web journey.`,
-      href: "",
+      href: "https://github.com/rxaravindsmart/2xp_portfolio.git",
     },
     {
       title: "CallTodo",
