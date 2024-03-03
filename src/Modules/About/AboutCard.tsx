@@ -37,15 +37,15 @@ const AboutCard = () => {
                 </span>
               </li>
               <li className="exp-wrap">
-                <span className="title-exp">10+</span>
+                <span className="title-exp">1+</span>
                 <br />
                 <span className="text-exp">
                   <RemoveIcon />
-                  Project Knoledge
+                  Project Knowledge
                 </span>
               </li>
               <li className="exp-wrap">
-                <span className="title-exp">3+</span>
+                <span className="title-exp">2+</span>
                 <br />
                 <span className="text-exp">
                   <RemoveIcon />
