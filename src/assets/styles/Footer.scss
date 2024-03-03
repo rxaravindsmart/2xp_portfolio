@@ -2,7 +2,23 @@
   background-color: #0f2c59;
   text-align: center;
   .footer-title {
-    color: aqua;
+    color: #3498db;
     font-weight: 400;
+  }
+  .footer-ref {
+    .footer-icon {
+      position: relative;
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .icon-button {
+      color: #3498db;
+      border: 2px solid transparent;
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+    .icon-button:hover {
+      border: 2px solid #3498db;
+      box-shadow: 0 0 10px 5px #3498db80;
+    }
   }
 }

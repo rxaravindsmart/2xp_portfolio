@@ -4,7 +4,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const AboutCard = () => {
   const about = [
     { key: "First Name", value: "Aravindkumar" },
-    { key: "Age", value: "23 Years" },
+    { key: "Date of Birth", value: "25/12/2000" },
     { key: "Last Name", value: "Palanisamy" },
     { key: "Languages", value: "Tamil,English" },
     { key: "Qualification", value: "B.Tech IT" },

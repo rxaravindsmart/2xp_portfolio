@@ -1,4 +1,5 @@
 import AboutCard from "./AboutCard";
+
 import ProgressBar from "./ProgressBar";
 import { Box, Button, Divider, Grid } from "@mui/material";
 import Diversity2Icon from "@mui/icons-material/Diversity2";
@@ -11,9 +12,23 @@ const AboutPage = () => {
     { title: "Java Script", value: 85 },
     { title: "React", value: 85 },
     { title: "TypeScript", value: 72 },
-    { title: "Scss", value: 60 },
+    { title: "Sass", value: 70 },
     { title: "Angular", value: 60 },
   ];
+  const getResume = () => {
+    fetch("./assets/2XPResume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "2XPResume.pdf";
+        alink.click();
+      });
+    });
+  };
 
   return (
     <>
@@ -81,7 +96,9 @@ const AboutPage = () => {
           </Grid>
         </Grid>
         <Box className="resume-download">
-          <Button className="resume">Download CV</Button>
+          <Button className="resume" onClick={getResume}>
+            Download CV
+          </Button>
         </Box>
       </Box>
     </>

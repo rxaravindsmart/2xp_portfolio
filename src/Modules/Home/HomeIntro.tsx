@@ -8,7 +8,7 @@ const HomeIntro = () => {
         <Grid item xs={12} sm={12} md={8}>
           <h1 className="title-wrap-head">
             {" "}
-            Let me <strong className="red"> Interduce </strong> MySelf
+            Let me <strong className="red"> introduce </strong> MySelf
           </h1>
           <p className="text">
             I'm an Indian based{" "}

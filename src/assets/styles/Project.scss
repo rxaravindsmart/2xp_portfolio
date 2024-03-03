@@ -62,6 +62,7 @@
   .title {
     font-size: 44px;
     text-align: center;
+    color: #0f2c59;
     .blue {
       color: #3498db;
     }
@@ -87,6 +88,7 @@
   .title {
     font-size: 32px;
     text-align: center;
+    color: #0f2c59;
     .blue {
       color: #3498db;
     }
@@ -94,8 +96,6 @@
   .grid-fix {
     margin-top: 30px;
     display: flex;
-    width: 90%;
-    margin-left: 5%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
